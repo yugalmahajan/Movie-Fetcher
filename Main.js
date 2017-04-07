@@ -6,7 +6,8 @@ import {
     Image,
     ActivityIndicator,
     ListView,
-    TouchableOpacity
+    TouchableOpacity 
+    
 } from 'react-native'
 
 // var Movies_List = 'http://api.themoviedb.org/3/movie/now_playing?api_key=e1a3bd96e2e2a55a0a19b753e5b42a1f';
