@@ -13,7 +13,7 @@ import {
 // var Movies_List = 'http://api.themoviedb.org/3/movie/now_playing?api_key=e1a3bd96e2e2a55a0a19b753e5b42a1f';
 var Movies_List = 'https://raw.githubusercontent.com/facebook/react-native/master/docs/MoviesExample.json';
 
-
+/* Changed */ 
 
 export default class Main extends Component {
 
@@ -82,6 +82,8 @@ export default class Main extends Component {
     }
 
 
+
+
     renderSeparator(sectionId,rowId) {
 
         return(
@@ -90,6 +92,8 @@ export default class Main extends Component {
             </View>
         )
     }
+
+
 
     renderRow(rowData) {
         console.log("working")
