@@ -14,6 +14,4 @@ import Main from './Main'
 
 
 
-
-
 AppRegistry.registerComponent('MyFirstApp', () => Main);
